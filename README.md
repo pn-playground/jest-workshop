@@ -37,7 +37,7 @@ This workshop teaches fundamental concepts of API testing through practical exam
 
    ```bash
    git clone <repository-url>
-   cd workshop-refactor
+   cd jest-workshop
    ```
 
 2. Install dependencies:
