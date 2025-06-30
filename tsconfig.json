@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "allowJs": true,
+        "target": "es6",
+        "module": "esnext",
+        "strict": true,
+        "resolveJsonModule": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "inlineSources": true,
+        "sourceRoot": "/",
+        "paths": {
+            "*": [
+                "src/*",
+                "node_modules/*"
+            ],
+            "@/*": [
+                "./jest/*"
+            ],
+            "@api": [
+                "./jest/support/api/index"
+            ],
+        },
+        "forceConsistentCasingInFileNames": true
+    }
+}
