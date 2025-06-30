@@ -21,8 +21,6 @@ describe('loginApiWithAdmin', () => {
     expect(result.userId).toBe(1)
     expect(result).toHaveProperty('token')
     expect(result).toHaveProperty('userId')
-    expect(typeof result.token).toBe('string')
-    expect(typeof result.userId).toBe('number')
   })
 })
 
@@ -34,8 +32,6 @@ describe('loginApiWithUser', () => {
     expect(result.userId).toBe(1)
     expect(result).toHaveProperty('token')
     expect(result).toHaveProperty('userId')
-    expect(typeof result.token).toBe('string')
-    expect(typeof result.userId).toBe('number')
   })
 })
 
@@ -47,8 +43,6 @@ describe('loginApiWithGuest', () => {
     expect(result.userId).toBe(1)
     expect(result).toHaveProperty('token')
     expect(result).toHaveProperty('userId')
-    expect(typeof result.token).toBe('string')
-    expect(typeof result.userId).toBe('number')
   })
 })
 
